@@ -51,7 +51,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Radian Boys';
 const CONTRACT_SYMBOL = 'RB';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x47E81C7aB9Df0a97D3d6968A6aA2019E18016E56';
 const TREASURY_ADDRESS = '0x47E81C7aB9Df0a97D3d6968A6aA2019E18016E56';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
