@@ -8,7 +8,7 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
+  --bg-color: #a73bd8;
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
@@ -117,9 +117,11 @@ header .container {
   text-decoration: none;
   outline: none;
 }
+
 .btn:hover {
   box-shadow: none;
 }
+
 .btn:disabled {
   cursor: default;
 }
@@ -178,11 +180,13 @@ section {
   display: flex;
   gap: 2rem;
 }
+
 .countdown .clock-item {
   list-style: none;
   width: 70px;
   height: auto;
 }
+
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
@@ -196,6 +200,7 @@ section {
   line-height: 1;
   border-radius: 4px 4px 0 0;
 }
+
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
@@ -221,7 +226,7 @@ section {
   margin-top: 1rem;
 }
 
-.countdown > p {
+.countdown>p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   margin-bottom: 2rem;
@@ -254,7 +259,7 @@ section {
   border-radius: 5px;
 }
 
-.mint-qty > span {
+.mint-qty>span {
   display: flex;
 }
 
@@ -346,43 +351,54 @@ section {
   .menu {
     gap: 1rem;
   }
+
   .wallet-btn {
     margin-left: 0;
     padding: 0.5rem 1rem;
     max-width: 8rem;
   }
+
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
     padding: 2rem;
     margin: 0 auto;
   }
+
   .countdown ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .countdown .clock-item {
     width: 100%;
   }
+
   .countdown .clock-item .count-number {
     font-size: 1.5rem;
   }
+
   .countdown .clock-item .count-text {
     font-size: 1rem;
   }
+
   .countdown h1 {
     font-size: 2rem;
     margin: 1rem 0;
   }
+
   .countdown h2 {
     padding-top: 0.5rem;
   }
+
   .countdown p {
     font-size: 1rem;
   }
+
   .card {
     padding: 1rem;
   }
+
   .mint-qty .btn {
     padding: 1rem;
     font-size: 13px;
