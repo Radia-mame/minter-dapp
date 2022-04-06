@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Radian Boys NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Radian Boys are a mysterious boys who constantly moves from one place to another in search of light, Guidance and Truth no one has never saw their bodies.always covered! ';
+const welcome_p = 'Radian Boys are a mysterious boys who constantly moves from one place to another in search of light, Guidance and Truth no one has never saw their bodies, always covered! ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
